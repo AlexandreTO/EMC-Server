@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class HomeController
 {
-    #[Route('/')]
+    #[Route('/number')]
     public function number(): Response
     {
         $number = random_int(0, 100);
