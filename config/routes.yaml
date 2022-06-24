@@ -5,3 +5,6 @@ controllers:
 oauth2:
     resource: '@LeagueOAuth2ServerBundle/Resources/config/routes.php'
     type: php
+
+api_login_check:
+    path: /api/login_check
