@@ -70,4 +70,4 @@ league_oauth2_server:
 
   client:
     # Set a custom client class. Must be a League\Bundle\OAuth2ServerBundle\Model\Client
-    classname: League\Bundle\OAuth2ServerBundle\Model\Client
+    classname: App\Entity\Client
